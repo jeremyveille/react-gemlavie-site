@@ -85,6 +85,10 @@ dist
 .yarn/build-state.yml
 .pnp.*
 
+# Firebase
+.firebase/
+.firebaserc.local
+
 # Production build artifacts
 build/
 dist/

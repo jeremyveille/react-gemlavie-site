@@ -1,1 +1,26 @@
-@import "tailwindcss";
+:root {
+  --bg-primary: #0b0f19;
+  --bg-card: #111827;
+  --bg-card-hover: #1f2937;
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --border-color: #1f2937;
+  --accent-orange: #ea580c;
+  --accent-orange-hover: #f97316;
+  --accent-green: #10b981;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
